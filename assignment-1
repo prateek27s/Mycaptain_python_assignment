@@ -1,0 +1,12 @@
+# Q1. write a Python program which accepts the radius of a circle from the user and computes area.
+import math
+radius= float(input("Input the radius of circle: "))
+area= math.pi*radius*radius
+print(f"The area of circle with radius {radius} is: {area}")
+
+
+# Q2. write a Python program to accept a filename from the user and print the extension of that.
+filename=input("Input the filename:")
+name,extension=filename.split('.')
+print(f"The extension of the file: {extension}") 
+# f is the formatted string used to add values when code runs and it display the value entered by user
