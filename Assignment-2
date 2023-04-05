@@ -1,0 +1,19 @@
+def print_positive_numbers(lst):
+    positive_numbers = []
+    for num in lst:
+        if num > 0:
+            positive_numbers.append(num)
+    print(positive_numbers)
+
+list1 = [12, -7, 5, 64, -14]
+print("Input: list1 =", list1)
+print("Output:", end=" ")
+print_positive_numbers(list1)
+
+list2 = [12, 14, -95, 3]
+print("Input: list2 =", list2)
+print("Output:", end=" ")
+print_positive_numbers(list2)
+
+
+#defining the function, then using list, follwed by for loop to check in the list, then if statement and then putting values in list 1 and list 2 to get output using the print function and the defined function.
